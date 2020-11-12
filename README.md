@@ -49,7 +49,7 @@ Prepare the environment and run Visual Studio Code.
 
 ### Other utilities
 
-- `env_vars(vars=["GITHUB_PASWORD"], env_file_location=f"{DRIVE_PATH}.env")`
+- `env_vars(vars=["GITHUB_PASSWORD"], env_file_location=f"{DRIVE_PATH}.env")`
 
 Load requested enviroment variables from a given .env file.
 
