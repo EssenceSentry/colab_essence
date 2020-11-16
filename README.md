@@ -58,3 +58,21 @@ Return the value of the requested enviroment variables from a given .env file. I
 - `uncompress(file_location)`
 
 Extract compressed files (.zip, .tar, .tar.gz, .tar.bz2, .tar.lz, .tar.lzma, .tar.xz).
+
+
+## Things to do:
+
+- [ ] Visualization recommender system.
+- [ ] See what other self-hosted services can be added.
+- [ ] Improve download (local file system, Google Sheet, SQL, BigQuery)
+- [ ] Add numpy, Sympy, LaTeX alternatives to F
+- [ ] What about transformational programming like Bird-Meertens
+- [ ] Ask or generate password if not present in .env file
+- [ ] Input widgets for all functions
+- [ ] Boilerplate for TPUs
+- [ ] Keras + FastAI
+- [ ] Original Jupyter through SSH
+- [ ] Wrapping for mobile devices with text transformation and extra imput row.
+- [ ] Try improving the autocompletion using Tabnine or Kite
+- [ ] Add auto formatting, refactoring, debugging, profiling utilities
+- [ ] Add property based testing with Hypothesis
