@@ -49,9 +49,9 @@ Prepare the environment and run Visual Studio Code.
 
 ### Other utilities
 
-- `env_vars(vars=["GITHUB_PASSWORD"], env_file_location=f"{DRIVE_PATH}.env")`
+- `env_vars("GITHUB_NAME", "GITHUB_PASSWORD", set_environ=False, env_file_location=f"{DRIVE_PATH}.env")`
 
-Load requested enviroment variables from a given .env file.
+Return the value of the requested enviroment variables from a given .env file. If set_environ is True (False by default), load to `os.environ` and is available with `os.environ[var_name]` from anywhere in the current environment.
 
 - `hash_file(file_location, hash_fns={"MD5": hl.md5, "SHA1": hl.sha1}, buffer_size=4*GB)`
 
